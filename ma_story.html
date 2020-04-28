@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- 
+	New Perspectives on HTML5 and CSS3, 7th Edition
+	Web Project
+	Story page
+	General Information about the Life of Selena Quintanilla
+	Author: Magaly Argueta
+	Date: 01/28/2020
+	
+	Filename: ma_story.html
+	-->
+	
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Singer, latin queen, Culture, death" />
+	<title>Her Story</title>
+	<link href="ma_styles.css" rel="stylesheet" />
+	<link href="ma_layout.css" rel="stylesheet" />
+	<link href="ma_reset.css" rel="stylesheet" />
+	<link href="ma_forms.css" rel="stylesheet" />
+	<link href="ma_effects.css" rel="stylesheet" />
+	
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<nav>
+		    <ul>
+				<li><a href="ma_index.html">About Her</a></li>
+				<li><a href="ma_story.html">Latin Queen</a></li>
+				<li><a href="ma_culture.html">Culture</a></li>
+				<li><a href="ma_history.html">Death</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>Latin Queen</h1>
+		<img src="ma_Selena1.jpg" alt="" />
+		<p>Selena Quintanilla was given credit for paving the way of Latin American singers especially in the United States.
+		Her early records weren’t much of a success. She was signed on with Freddie label who was the oldest record label 
+		known in Texas. This was in was in 1984 and she recorded Mis Primers Grabaciones (My first record). It was an album 
+		with the one song, “Ya Se Va.” She switched to another label but didn’t do much better she did however found more 
+		success in touring all over for acts of Tejanos. They learned how to mix different music with traditional 
+		Tejano music.</p> 
+		<p>She finally found a big record company that was supporting her in 1989. In 1991, her song called “Buenos Amigos”
+		(or good friends) became popular and reached the number one spot in the Billboard’s Latin music. She kept growing 
+		from there and she started reaching a wider audience in America. She got married on April 2, 1992 to the lead 
+		guitarist, Christopher Perez in her band secretly without her family knowing. Her album Selena Live of March 1994, 
+		she won a Grammy Award for having one of the greatest Mexican American Album  for selling millions of copies that year.  In 1993 she changed with 
+		another label with mostly English language artist like Mariah Carey and Madonna. This is when her album 
+		Dreaming of You was created but was not released until after she passed away.</p>
+		<p>All information, pictures, and music is copyrighted. This website is only for educational purposes.</p>
+	</article>
+   <section>
+      <h2>Fan Questionaire</h2>
+      <p>Required values are marked by an asterisk (*)</p>
+	</section>
+	<section>
+	  <form id="survey" action="http://www.example.com/redball/survey" method="post">
+	  <fieldset id="custInfo">
+		<legend>Share Your Love For Selena</legend>
+		</fieldset>
+		</form>
+		
+		<div class="formRow">
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name" required />
+		</div>
+
+	<div class="formRow">	
+		<label>Where are you From?</label>
+	</div>
+	
+	<div class="formRow">
+		<label for="city">City</label>
+		<input name="custCity" id="city" type="text" value="Ormond Beach" />
+	</div>
+	
+	<div class="formRow">
+		<label for="state">State</label>
+		<input name="custState" id="state" type="text" value="FL" />
+	</div>
+	<div class="formRow">
+		<label for="info">Where did you hear about us?<br />(select all that apply)</label>
+		<select name="infoSrc" id="info" size="5" multiple>
+			<option value="internet">Internet</option>
+			<option value="mag">Magazine</option>
+			<option value="news">Newspaper</option>
+			<option value="word">Word of Mouth</option>
+			<option value="other">Other</option>
+		</select>
+	</div>
+	<div class="formRow">
+			<label for="visit">Date of visit</label>
+			<input name="visitDate" id="visit" type="date" />
+	</div>
+	<div>
+		<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+		<label for="mailCB">Add me to your mailing list for more information</label>
+	</div>
+	  <fieldset id="expInfo">
+		<legend>Fan Questionaire</legend>
+	</fieldset>
+	<div class="formRow">
+		<label for="order">What's your favourite songs?</label>
+		<select name="orderType" id="order">
+			<option value="order1">Cada ves</option>
+			<option value="order2">El Chico</option>
+			<option value="order3" Selected>Amor Prohibido</option>
+			<option value="order4">Como La Flor</option>
+		</select>
+		</div>
+	<div class="formRow">
+		<label>Was this website informational?</label>
+		<fieldset class="optGroup">
+			<label for="fYes">Yes</label>
+			<input name="sFriend" id="fYes" value="yes" type="radio" />
+			<label for="fNo">No</label>
+			<input name="sFriend" id="fNo" value="no" type="radio" />
+			</fieldset>
+	</div>	
+</section>
+	<div class="row">
+	  <footer>Selena Quintanilla &#8226; 411 Belde Drive, Charlotte NC &nbsp; 28201 &#8226; 704-555-1151</footer>
+	</div>
+</body>
+</html>

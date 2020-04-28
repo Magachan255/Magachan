@@ -1,0 +1,66 @@
+/*
+   New Perspectives on HTML and CSS
+   Web Project
+   Tables
+
+   Columns Style Sheet
+   Author: Magaly Argueta
+   Date:   03/09/2020
+
+   Filename:         ma_tables.css
+
+*/
+
+
+/* Table Styles */
+
+table.schedule {
+	background: white;
+	border: 10px outset rgb(255, 51, 119);
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%;
+}
+
+
+/* Table Cell Styles */
+
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}
+
+/* Table Caption Styles */
+
+table.schedule caption {
+	caption-side: bottom;
+	text-align: right;
+}
+
+/* Row Group Styles */
+
+table.schedule thead {
+	background:rgb(255, 51, 119) ;
+	color: white;
+}
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+table.schedule thead tr {
+	height: 30px;
+}
+table.schedule tbody tr {
+	height: 40px;
+}
+/* Column Group Styles */
+
+col#firstCol {
+	background: rgb(218, 210, 218);
+	width: 16%;
+}
+col.infoCols {
+	background: rgb(255, 220,255);
+	width:12%;
+}
